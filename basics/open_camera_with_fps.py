@@ -9,7 +9,6 @@ cap = cv2.VideoCapture(0)
 fps = FPS().start()
 
 while True:
-	# we'd have to disable in the final feature
 	# capture frame by frame
 	ret, frame = cap.read()
 
